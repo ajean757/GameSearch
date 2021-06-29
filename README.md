@@ -7,4 +7,4 @@ Searchable Attributes:
 - Developer
 - Publisher
 - Genre
-- # of positive reviews
+- Number of positive reviews
