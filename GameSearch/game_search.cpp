@@ -126,6 +126,12 @@ void search_for_game(GameLibrary& lib) {
 		search_sets.push_back(std::move(lib.search_by_positive_reviews(user_input[4])));
 	}
 
+
+	if (search_sets.empty()) {
+		cout << "No games found!" << endl;
+		return;
+	}
+
 	set<appid> union_set;
 	union_set = std::move(GameLibrary::merge_n_sets(search_sets));
 
