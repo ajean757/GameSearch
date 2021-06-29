@@ -10,14 +10,14 @@
 *.userosscache
 *.sln.docstates
 
-all_steam_games.csv
-PriorityVector.h
-/old
-/unit_tests
+./GameSearch/all_steam_games.csv
+./GameSearch/PriorityVector.h
+./GameSearch/old/
+./GameSearch/unit_tests/
 
 # Visual Sutido Project Files
-*.vcxproj
-*.vcxproj.filters
+./GameSearch/*.vcxproj
+./GameSearch/*.vcxproj.filters
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
